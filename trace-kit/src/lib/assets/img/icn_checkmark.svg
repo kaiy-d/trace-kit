@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>icn_checkmark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="button_secondary_icon" transform="translate(-281.000000, -27.000000)" stroke="#37C2AC">
+            <g id="icn_checkmark" transform="translate(280.000000, 29.000000)">
+                <g id="Group" transform="translate(3.000000, 0.000000)">
+                    <path d="M22.5,0.5 L9,21" id="Shape" stroke-width="5"></path>
+                    <path d="M0.5,12.5 L8.5005357,20.5005357" id="Shape" stroke-width="5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

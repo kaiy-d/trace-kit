@@ -1,0 +1,56 @@
+@media screen and (min-width: 376px) {
+}
+@media screen and (max-width: 375px) {
+    .user {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .user__avatar_div {
+        width: 105px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .user__avatar {
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        background-image: url('../../assets/img/player.jpg');
+    }
+
+    .user__traced_verified {
+        display: flex;
+        align-items: center;
+    }
+    
+    .user_traced_verified_text {
+        align-items: center;
+        margin-left: 5px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #37C2AC;
+    }
+
+    .user__name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 27px;
+        line-height: 38px;
+        color: #333333;
+    }
+
+    .user__description {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        color: #828282;
+    }
+}

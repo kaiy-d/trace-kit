@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="266px" height="266px" viewBox="0 0 266 266" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Play-Loader" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="d.video" transform="translate(-587.000000, -302.000000)" fill="#FFFFFF">
+            <path d="M720,568 C646.546128,568 587,508.453872 587,435 C587,361.546128 646.546128,302 720,302 L720,310 C650.964406,310 595,365.964406 595,435 C595,504.035594 650.964406,560 720,560 C789.035594,560 845,504.035594 845,435 L853,435 C853,508.453872 793.453872,568 720,568 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,43 @@
+.TRCToggle {
+    display: inline-block;
+    width: 42px;
+    height: 24px;
+}
+
+.TRCToggle input {
+    display: none;
+}
+
+.TRCToggle .switch-label {
+    cursor: pointer;
+    margin: 0;
+}
+
+.TRCToggle .switch-rail {
+    transition: all 0.2s ease-in-out;
+    width: 40px;
+    height: 24px;
+    border-radius: 20px;
+    background: #cccccc;
+    overflow: hidden;
+}
+
+.TRCToggle .switch-slider {
+    transition: all 0.2s ease-in-out;
+    margin-top: 2px;
+    margin-left: 18px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.TRCToggle input:checked + .switch-label .switch-rail {
+    transition: all 0.2s ease-in-out;
+    background: #37C2AC;
+}
+
+.TRCToggle input:checked + .switch-label .switch-slider{
+    transition: all 0.2s ease-in-out;
+    margin-left: 2px;
+} 

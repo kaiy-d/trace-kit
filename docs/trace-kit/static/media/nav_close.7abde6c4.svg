@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_assets" transform="translate(-473.000000, -260.000000)" fill="#444444">
+            <g id="X" transform="translate(473.000000, 259.594259)">
+                <g id="arrows-16px-1_minimal-left" stroke-width="1" fill-rule="evenodd" transform="translate(6.000000, 0.000000)">
+                    <polygon id="Shape" fill-rule="nonzero" points="8.1 15.7 0.4 8 8.1 0.3 9.6 1.7 3.3 8 9.6 14.3"></polygon>
+                </g>
+                <polygon id="Shape" fill-rule="nonzero" transform="translate(5.000000, 8.000000) scale(-1, 1) translate(-5.000000, -8.000000) " points="8.1 15.7 0.4 8 8.1 0.3 9.6 1.7 3.3 8 9.6 14.3"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

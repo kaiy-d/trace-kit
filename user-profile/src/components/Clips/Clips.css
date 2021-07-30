@@ -1,0 +1,228 @@
+.clips__list {
+    background-color: white;
+}
+
+.clip-list {
+    flex: 1;
+    overflow: auto;
+}
+
+.clip-list-item {
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 1px solid #E6E4E1;
+    border-bottom: 1px solid #E6E4E1;
+}
+
+.clip-list-item__index-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clip-list-item__play-icon-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+}
+
+.clip-list-item__play-icon {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.clip-list-item__index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
+.clip-list-item__area {
+    padding: 10px 0px;
+}
+
+.clip-list-item-bubble__group {
+    display: block;
+}
+
+.clip-list-item-bubble__div {
+    padding: 5px 5px 5px 0px;
+    display: inline-block;
+}
+
+.clip-list-item-bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 40px;
+    padding: 5px 16px 3px 16px;
+    background-color: #E5E4E1;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    color: #444444;
+    border: none;
+    border-radius: 20px;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.clip-list-item-bubble__close-icon-div {
+    margin-left: 10px;
+    opacity: 30%;
+    cursor: pointer;
+}
+
+.clip-list-item-close-icon {
+    width: 10px;
+    height: 10px;
+}
+
+.clip-list-item-add-icon-area {
+    margin-left: 10px;
+    color: #37C2AC;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.clip-list-item-add__icon {
+    width: 16px;
+    height: 16px;
+}
+
+.clip-list-item-title {
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+}
+
+.clip-list-item__score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.clip-list-item_1 {
+    display: flex;
+}
+
+.clip-list-item__win-score {
+    width: max-content;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #7ED321;
+}
+
+.clip-list-item__draw-score {
+    width: max-content;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.clip-list-item__loss-score {
+    width: max-content;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #EC5366;
+}
+
+.switch-container #switch {
+    display: none;
+}
+
+.switch-container .switch-label {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+
+.switch-rail {
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65px;
+    height: 30px;
+    background: #37C2AC;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.letterOn {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.letterOff {
+    display: none;
+}
+
+.switch-slider {
+    transition: all 0.2s ease-in-out;
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    border-radius: 50%;
+    background: white;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail {
+    transition: all 0.2s ease-in-out;
+    background: #E0E0E0;
+    border-color: #37C2AC;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail .letterOn {
+    display: none;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail .letterOff {
+    display: inline;
+    padding-right: 10px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    color: #BDBDBD;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail .switch-slider {
+    margin-left: 3px;
+    transition: all 0.2s ease-in-out;
+    background: white;
+}

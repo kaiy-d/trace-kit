@@ -1,0 +1,13 @@
+.clip-list-item-add {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.clip-list-item-add-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.clip-list-item-add-icon path {
+  stroke: #37C2AC;
+}

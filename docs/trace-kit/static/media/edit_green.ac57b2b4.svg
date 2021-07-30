@@ -1,0 +1,15 @@
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="module/team" transform="translate(-474.000000, -21.000000)" fill="#37C2AC" fill-rule="nonzero">
+            <g id="Group-3" transform="translate(472.000000, 19.000000)">
+                <g id="icon/edit_teal">
+                    <path d="M7,16.845775 L12,16.845775 L21.479,7.366775 C21.96806,6.877715 21.96806,6.087095 21.479,5.599595 L18.2462,2.366795 C17.75714,1.877735 16.96652,1.877735 16.47902,2.366795 L7.00002,11.845795 L7,16.845775 Z" id="Shape"></path>
+                    <polygon id="Shape" points="20 14.5 20 20 4 20 4 4 9.5 4 9.5 2 2 2 2 22 22 22 22 14.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

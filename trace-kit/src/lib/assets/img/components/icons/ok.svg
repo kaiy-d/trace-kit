@@ -1,0 +1,24 @@
+<svg width="35px" height="32px" viewBox="0 0 35 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-6.7%" y="-4.0%" width="113.5%" height="111.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="d06c_newGame_jersey" transform="translate(-663.000000, -209.000000)" fill="#000000">
+            <g id="Group-10" filter="url(#filter-1)" transform="translate(630.000000, 170.000000)">
+                <g id="Group" transform="translate(30.000000, 30.000000)">
+                    <polygon id="Path" points="26.5781023 13.2631579 28.5766379 15.0868421 17.6131827 27.1972724 11.9601329 21.5552312 13.8730365 19.6460526 17.4418605 23.2079267"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

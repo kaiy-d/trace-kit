@@ -1,0 +1,117 @@
+
+.TRCInput {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.TRCInput.full {
+  width: 100%;
+}
+.TRCInput input, .TRCInput select {
+  width: 100%;
+}
+
+.TRCInput input {
+  height: 60px;
+  padding: 12px 20px;
+  border: 2px solid #ccc;
+  line-height: 23px;
+  min-width: 1px;
+  max-width: 100%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  font-family: inherit;
+  font-weight: inherit;
+  background: #fff;
+}
+
+.TRCInput input:-moz-placeholder {
+  color: #ccc;
+}
+
+.TRCInput input:-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.TRCInput input:-ms-input-placeholder {
+  color: #ccc;
+}
+
+.TRCInput input:focus {
+  outline: none;
+  border-color: #37c2ac;
+}
+
+.TRCInput input.full-width {
+  width: calc(100% - 10px);
+}
+
+.TRCInput input[disabled] {
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+  background: transparent;
+}
+
+.TRCInput input[type="submit"][disabled] {
+  cursor           : default;
+  background-color : #C4C4C4;
+  color            : #fff;
+  box-shadow       : none;
+}
+
+.TRCInput select {
+  height: 60px;
+  background: #fff url("./assets/img/components/select_arrow.svg") no-repeat;
+  background-position: calc(100% - 15px) 24px;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  min-width: 74px;
+  padding: 0 30px 0 20px;
+    
+  line-height: 23px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+.TRCInput select:-moz-placeholder {
+  color: #ccc;
+}
+
+.TRCInput select:-webkit-input-placeholder {
+  color: $#ccc;
+}
+
+.TRCInput select:-ms-input-placeholder {
+  color: #ccc;
+}
+
+.TRCInput select:focus {
+  outline: none;
+  border-color: #ccc;
+}
+
+.invalid input,
+.invalid input:focus,
+.TRCInput input.invalid, 
+.TRCInput input:focus.invalid, 
+.TRCInput select.invalid,
+.TRCInput select:focus.invalid {
+  border-color: #EC5366;
+}
+
+.TRCInput .error {
+  float: left;
+  width: 100%;
+  padding: 5px 20px;
+  font-size: 13px;
+  font-weight: inherit;
+  line-height: 1.5;
+  color: #EC5366;
+  text-align: left;
+}
+
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="24px" viewBox="0 0 23 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_assets" transform="translate(-470.000000, -298.000000)">
+            <g id="icn_check" transform="translate(471.000000, 299.797129)">
+                <path d="M10.16,0 C4.572,0 0,4.56 0,10.1333333 C0,15.7066667 4.572,20.2666667 10.16,20.2666667 C15.748,20.2666667 20.32,15.7066667 20.32,10.1333333 C20.32,4.56 15.748,0 10.16,0 Z" id="Shape" stroke="#FFFFFF" stroke-width="2" fill-rule="nonzero"></path>
+                <polygon id="Path" fill="#FFFFFF" points="8.89 14.44 4.572 10.1333333 6.35 8.36 8.89 10.8933333 13.97 5.82666667 15.748 7.6"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

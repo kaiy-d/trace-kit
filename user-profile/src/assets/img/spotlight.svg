@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8000px" height="8000px" viewBox="0 0 8000 8000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Overlay Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-18.473251%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#222222" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#222222" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="1.98473627%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Overlay-Copy-4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,0 L8000,0 L8000,8000 L0,8000 L0,0 Z M3999,4035 C4068.03559,4035 4124,4015.70229 4124,3991.89735 C4124,3968.09242 4068.03559,2435 3999,2435 C3929.96441,2435 3874,3968.09242 3874,3991.89735 C3874,4015.70229 3929.96441,4035 3999,4035 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        <path d="M4000,4035 C4069.03559,4035 4125,4018.16922 4125,3997.40741 C4125,3976.64559 4069.03559,3965 4000,3965 C3930.96441,3965 3875,3976.64559 3875,3997.40741 C3875,4018.16922 3930.96441,4035 4000,4035 Z" id="Oval" fill-opacity="0.5" fill="url(#linearGradient-2)" opacity="0.5"></path>
+    </g>
+</svg>

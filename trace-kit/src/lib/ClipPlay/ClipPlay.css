@@ -1,0 +1,88 @@
+.clip-play {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E6E4E1;
+}
+
+.clip-play-label {
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 400;
+    color: #444444;
+    margin-right: 10px;
+}
+
+.switch-container #switch {
+    display: none;
+}
+
+.switch-container .switch-label {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+}
+
+.switch-rail {
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65px;
+    height: 30px;
+    background: #37C2AC;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.letterOn {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.letterOff {
+    display: none;
+}
+
+.switch-slider {
+    transition: all 0.2s ease-in-out;
+    width: 24px;
+    height: 24px;
+    margin-right: 3px;
+    border-radius: 50%;
+    background: white;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail {
+    transition: all 0.2s ease-in-out;
+    background: #E0E0E0;
+    border-color: #37C2AC;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail .letterOn {
+    display: none;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail .letterOff {
+    display: inline;
+    padding-right: 10px;
+    font-family: 'Raleway';
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    color: #BDBDBD;
+}
+
+.switch-container #switch:checked+.switch-label .switch-rail .switch-slider {
+    margin-left: 3px;
+    transition: all 0.2s ease-in-out;
+    background: white;
+}

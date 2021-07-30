@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="41px" viewBox="0 0 44 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="_assets" transform="translate(-799.000000, -841.000000)">
+            <g id="control_players" transform="translate(801.000000, 844.000000)">
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4.5" fill="#FFFFFF" stroke-linecap="square" cx="32.4064266" cy="3.59084881" rx="3.60071407" ry="3.59084881"></ellipse>
+                <path d="M25.2049985,10.7725464 L18.0035703,17.954244 C16.3968703,19.556542 16.6617432,22.224178 18.5523433,23.4811237 L24.0660827,27.14688 C24.9446087,27.7309594 25.1328556,28.9401298 24.4732669,29.7623557 L19.8039274,35.9084881" id="Shape" stroke="#FFFFFF" stroke-width="5.4"></path>
+                <path d="M10.8021422,8.97712202 L13.9243549,5.86346452 C15.221713,4.56966087 17.2871008,4.45558229 18.7197927,5.59859561 L31.690206,15.9464972 C33.1228979,17.0895098 35.1882841,16.9754329 36.4856421,15.6816292 L39.6078547,12.5679708" id="Shape" stroke="#FFFFFF" stroke-width="5.4"></path>
+                <path d="M10.8021422,25.1359416 L0,35.9084881" id="Shape" stroke="#FFFFFF" stroke-width="5.4"></path>
+                <ellipse id="Oval-4" fill="#FFFFFF" cx="33.3066051" cy="35.0107759" rx="2.70053555" ry="2.6931366"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

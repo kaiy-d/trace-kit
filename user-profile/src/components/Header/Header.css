@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.header__share {
+    width: 72px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    color: #37C2AC;
+    border: 2px solid #37C2AC;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: white;
+}

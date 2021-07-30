@@ -1,0 +1,40 @@
+@media screen and (max-width: 375px) {
+    .clips_tab {
+        display: flex;
+    }
+
+    .clips_tab__selected {
+        padding: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 19px;
+        color: #333333;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        float: left;
+        padding: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    
+    li.clips_tab__selected {
+        color: #333333;
+        border-bottom: 2px solid #444;
+    }
+
+    li.clips_tab__unselected {
+        color: #37C2AC;
+    }
+}

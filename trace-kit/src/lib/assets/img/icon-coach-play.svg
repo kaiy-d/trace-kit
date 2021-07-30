@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-coach-play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="coachmoment_desktop_v2" transform="translate(-28.000000, -93.000000)" fill="#37C2AC">
+            <path d="M42,121 C34.2680135,121 28,114.731986 28,107 C28,99.2680135 34.2680135,93 42,93 C49.7319865,93 56,99.2680135 56,107 C56,114.731986 49.7319865,121 42,121 Z M45.9034153,105.514682 L40.2177968,102.284216 C38.7716191,101.462525 37.6036364,102.143041 37.6036364,103.801126 L37.6036364,110.198874 C37.6036364,111.85024 38.7740358,112.536102 40.2177968,111.715784 L45.9034153,108.485318 C47.3495931,107.663627 47.3471763,106.335 45.9034153,105.514682 Z" id="icon-coach-play"></path>
+        </g>
+    </g>
+</svg>

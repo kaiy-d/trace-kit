@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>topbar-chooseteam-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header/web.mobile" transform="translate(-281.000000, -85.000000)" fill="#444444">
+            <g id="Group-7" transform="translate(81.000000, 75.000000)">
+                <polygon id="topbar-chooseteam-icon" points="200 11.3043478 201.181818 10 206.5 15.4782609 211.818182 10 213 11.3043478 206.5 18"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

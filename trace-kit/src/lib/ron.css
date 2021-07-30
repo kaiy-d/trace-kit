@@ -1,0 +1,928 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+/* for radar view only */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+@font-face {
+  font-family: 'trace-icons';
+  src: url('./assets/fonts/trace-icons.eot');
+  src: url('./assets/fonts/trace-icons.eot') format('embedded-opentype'),
+       url('./assets/fonts/trace-icons.woff2?40262788') format('woff2'),
+       url('./assets/fonts/trace-icons.woff?40262788') format('woff'),
+       url('./assets/fonts/trace-icons.ttf?40262788') format('truetype'),
+       url('./assets/fonts/trace-icons.svg?40262788#trace-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+    margin      : 0;
+    padding     : 0;
+
+    background  : #F3F2F0;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 17px;
+    font-weight : 500;
+    color       : #444444;
+    line-height : 22px;
+}
+
+
+@media (orientation: landscape) {
+    body.game {
+        background: #000;
+    }
+}
+
+/*** Typography ***/
+a {
+    color           : #37C2AC;
+    text-decoration : none;
+}
+
+a:active, a:hover {
+    color   : #30A290;
+    outline : 0;
+}
+
+* {
+    box-sizing : border-box;
+    margin     : 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family : inherit;
+    font-size   : 17px;
+    font-weight : inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+.side-panel h4,
+input, button, select {
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 17px;
+    font-weight : 500;
+    color       : #444444;
+}
+
+textarea {
+    font-family : 'Montserrat', sans-serif;
+}
+
+.subscript {
+    font-size: 13px;
+}
+
+/*** End Typography ***/
+/*** Layout ***/
+.trace-container {
+    margin  : 0 auto;
+    padding : 0 20px;
+}
+
+@media only screen and (min-width: 813px) {
+    .trace-container {
+        padding : 0 20px 0 40px;
+    }
+}
+
+/*** End Layout ***/
+/*** Icons ***/
+
+
+[class^="trc-icon-"]:before, [class*=" trc-icon-"]:before {
+  font-family: "trace-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.trc-icon-feedback:before { content: '\e800'; } /* '' */
+.trc-icon-spotlight-player:before { content: '\e801'; } /* '' */
+.trc-icon-play:before { content: '\e802'; } /* '' */
+.trc-icon-x:before { content: '\e803'; } /* '' */
+.trc-icon-spotlight:before { content: '\e804'; } /* '' */
+
+.icon-jump-back {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 27px;
+
+    background-image    : url("./assets/img/video-jump-back.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 27px 25px;
+    text-indent         : -99999px;
+}
+
+.icon-jump-forward {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 27px;
+
+    background-image    : url("./assets/img/video-jump-forward.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 27px 25px;
+    text-indent         : -99999px;
+}
+
+.icon-video-prev {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 27px;
+
+    background-image    : url("./assets/img/icon-video-prev.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 27px 25px;
+    text-indent         : -99999px;
+}
+
+.icon-video-play {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 40px;
+
+    background-image    : url("./assets/img/icon-video-play.svg");
+    background-position : 6px center;
+    background-repeat   : no-repeat;
+    background-size     : 34px 34px;
+    text-indent         : -99999px;
+}
+
+.icon-video-pause {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 40px;
+
+    background-image    : url("./assets/img/control_pause.svg");
+    background-position : 6px center;
+    background-repeat   : no-repeat;
+    background-size     : 34px 34px;
+    text-indent         : -99999px;
+}
+
+.icon-video-next {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 27px;
+
+    background-image    : url("./assets/img/icon-video-next.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 27px 25px;
+    text-indent         : -99999px;
+}
+
+.icon-video-clips {
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 40px;
+
+    background-image    : url("./assets/img/icon-video-clips.svg");
+    background-position : 5px center;
+    background-repeat   : no-repeat;
+    background-size     : 34px 40px;
+    text-indent         : 0;
+}
+
+.icon-video-players {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 40px;
+
+    background-image    : url("./assets/img/icon-video-players.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 40px 40px;
+    text-indent         : -99999px;
+}
+
+.icon-video-share {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 39px;
+
+    background-image    : url("./assets/img/video-icon-share.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 35px 30px;
+    text-indent         : -99999px;
+}
+
+.icon-video-download {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 39px;
+
+    background-image    : url("./assets/img/icon-download.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 35px 35px;
+    text-indent         : -99999px;
+}
+
+.icon-video-feedback {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 39px;
+
+    background-image    : url("./assets/img/video-icon-feedback.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 35px 35px;
+    text-indent         : -99999px;
+}
+
+.icon-video-feedback-good {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 39px;
+
+    background-image    : url("./assets/img/icon-like.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 35px 35px;
+    text-indent         : -99999px;
+}
+
+.icon-video-feedback-bad {
+    position            : relative;
+    display             : inline-block;
+    vertical-align      : middle;
+    z-index             : 2;
+
+    overflow            : hidden;
+    height              : 100%;
+    width               : 39px;
+
+    background-image    : url("./assets/img/icon-dislike.svg");
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-size     : 35px 35px;
+    text-indent         : -99999px;
+}
+
+i.trace-icon {
+    display         : inline-block;
+
+    height          : 30px;
+    width           : 30px;
+    margin          : 5px;
+
+    background-size : 100% 100%;
+}
+
+i.trace-icon.x2 {
+    height : 60px;
+    width  : 60px;
+}
+
+i.trace-icon.rotate180 {
+    transform : rotate(180deg);
+}
+
+i.trace-icon.rotating {
+    -webkit-animation : spin 1s linear infinite;
+    -moz-animation    : spin 1s linear infinite;
+    animation         : spin 1s linear infinite;
+}
+
+i.trace-icon.add {
+    background-image : url("./assets/img/components/icons/add.svg");
+}
+
+i.trace-icon.arrow-back {
+    background-image : url("./assets/img/components/icons/arrow_back.svg");
+}
+
+i.trace-icon.cancel {
+    background-image : url("./assets/img/components/icons/cancel.svg");
+}
+
+i.trace-icon.hamburger {
+    background-image : url("./assets/img/components/icons/hamburger.svg");
+}
+
+i.trace-icon.hamburger-white {
+    background-image : url("./assets/img/components/icons/hamburger_white.svg");
+}
+
+i.trace-icon.download {
+    background-image : url("./assets/img/components/icons/download.svg");
+}
+
+i.trace-icon.dynamics {
+    background-image : url("./assets/img/components/icons/dynamics.svg");
+}
+
+i.trace-icon.arrow-forward-white {
+    background-image : url("./assets/img/components/icons/arrow_forward_white.svg");
+}
+
+i.trace-icon.loader-white-small {
+    background-image : url("./assets/img/components/icons/icn_loader_white_sm.svg");
+}
+
+i.trace-icon.edit-green {
+    background-image : url("./assets/img/components/icons/edit_green.svg");
+}
+
+i.trace-icon.edit {
+    background-image : url("./assets/img/components/icons/edit_green.svg");
+}
+
+i.trace-icon.edit-gray {
+    background-image : url("./assets/img/components/icons/edit_gray.svg");
+}
+
+i.trace-icon.global {
+    background-image : url("./assets/img/components/icons/global.svg");
+}
+
+i.trace-icon.global-green {
+    background-image : url("./assets/img/components/icons/global_green.svg");
+}
+
+i.trace-icon.more-green {
+    background-image : url("./assets/img/components/icons/more_green.svg");
+}
+
+i.trace-icon.share {
+    background-image : url("./assets/img/components/icons/share.svg");
+}
+
+i.trace-icon.edit {
+    background-image : url("./assets/img/components/icons/edit.svg");
+}
+
+i.trace-icon.swap-tracers {
+    background-image : url("./assets/img/components/icons/swap_tracers.svg");
+}
+
+i.trace-icon.share-green {
+    background-image : url("./assets/img/components/icons/share_green.svg");
+}
+
+i.trace-icon.refresh-green {
+    background-image : url("./assets/img/components/icons/refresh_green.svg");
+}
+
+i.trace-icon.download-green {
+    background-image : url("./assets/img/components/icons/download_green.svg");
+}
+
+i.trace-icon.note-green {
+    background-image : url("./assets/img/components/icons/note_green.svg");
+}
+
+i.trace-icon.loading-ball {
+    background-image : url("./assets/img/components/icons/ball-triangle-loader.svg");
+}
+
+i.trace-icon.loading-ball-gray {
+    background-image : url("./assets/img/components/icons/ball-triangle-loader-gray.svg");
+}
+
+i.trace-icon.trash-red {
+    background-image : url("./assets/img/components/icons/trash_red.svg");
+}
+
+i.trace-icon.circle-green {
+    background-image : url("./assets/img/components/icons/circle_green.svg");
+}
+
+h3.LoadingMessage, p.loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 23px;
+}
+h3.LoadingMessage span {
+    line-height: 34px;
+    display: inline-block;
+    padding-bottom: 6px;
+}
+
+/*** End Icons ***/
+/*** Side Panels ***/
+/* Mobile Portrait */
+.dynamics-panel, .player-panel, .players-panel {
+    position: absolute;
+    overflow: visible;
+}
+
+.players-panel .side-panel-title, .player-panel .side-panel-title, .dynamics-panel .side-panel-title {
+    position : fixed;
+    top      : 0;
+    overflow : visibile;
+}
+
+.side-panel-buddy {
+    position   : fixed;
+    display    : block;
+    top        : 0;
+    right      : 0;
+    bottom     : 0;
+    left       : 0;
+    z-index    : 998;
+
+    height     : 100vh;
+    width      : 100%;
+
+    background : #f8f8f8;
+}
+
+.side-panel-backdrop {
+    position   : fixed;
+    display    : block;
+    top        : 0;
+    left       : 0;
+    z-index    : 995;
+
+    height     : 100%;
+    width      : 100%;
+
+    background : rgba(0, 0, 0, 0.05);
+}
+
+.side-panel {
+    top        : 0;
+    z-index    : 999;
+
+    width      : 100%;
+    margin     : 0;
+    padding    : 0;
+
+    background : #f9f9f9;
+    font-size  : 12pt;
+    color      : #000;
+    overflow   : visible;
+
+}
+
+.side-panel .side-panel-title {
+    z-index    : 1000;
+
+    width      : 100%;
+    padding    : 0;
+
+    background : #fff;
+    box-shadow : inset 0 -2px 0 0 #DDDDDD;
+    display: flex;
+}
+
+.side-panel .side-panel-title h2 {
+    overflow      : hidden;
+    max-width     : 60%;
+    margin        : 0;
+    padding       : 19px 0 15px;
+
+    font-size     : 28px;
+    font-weight   : 600;
+    line-height   : 1.5;
+    text-overflow : ellipsis;
+    white-space   : nowrap;
+}
+
+.side-panel .menu-items {
+    float  : right;
+    margin : 20px 10px;
+}
+
+.side-panel .side-panel-close {
+    float       : left;
+
+    overflow    : hidden;
+    height      : 82px;
+    width       : 71px;
+
+    background  : url(./assets/img/nav_close.svg) no-repeat 30px center;
+    text-indent : -999999px;
+}
+
+.side-panel .side-panel-content {
+    /*z-index    : 490;*/
+    width      : 100%;
+    padding    : 82px 0 20px;
+}
+
+.side-panel h3 {
+    margin-bottom : 10px;
+
+    font-style    : normal;
+    font-weight   : 600;
+    text-align    : center;
+}
+
+.extended-panel-content {
+    margin : 0;
+}
+
+.extended-panel-title .side-panel-content {
+    padding-top : 123px;
+}
+
+.side-panel-section:first-child {
+    padding-top : 30px;
+}
+
+.side-panel-section {
+    padding-bottom : 20px;
+}
+
+.panel-banner {
+    padding    : 40px 60px;
+
+    background : #37C2AC;
+    text-align : center;
+}
+
+a.action-btn {
+    padding       : 7px 18px;
+
+    background    : #37C2AC;
+    font-size     : 16px;
+    font-weight   : bold;
+    color         : #fff;
+    border-radius : 38px;
+    box-shadow    : 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 567px) and (max-width: 799px) {}
+
+/* Mobile Landscape  and larger */
+@media only screen and (min-width: 567px) {
+    .side-panel .side-panel-title .menu-items {
+        float  : right;
+        margin : 25px 0 20px;
+    }
+
+    .side-panel .side-panel-title h2 {
+        max-width : 40%;
+    }
+
+    .side-panel-buddy {
+        display : none;
+    }
+
+    .extended-panel-content {
+        width  : calc(100% - 60px);
+        margin : 0 30px;
+    }
+
+    .side-panel-section {
+        margin-right : 30px;
+        margin-left  : 30px;
+    }
+}
+
+/* Desktop Small and larger */
+@media only screen and (min-width: 800px) {
+    .side-panel {
+        right      : 0;
+        width      : 668px;
+        box-shadow : -5px 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .side-panel .side-panel-title {
+        width : 668px;
+    }
+
+    .side-panel .side-panel-title h2 {
+        max-width : 50%;
+    }
+
+    .side-panel .side-panel-title .menu-items {
+        float  : right;
+        margin : 25px 0 20px;
+    }
+}
+
+/*** End Side Panels ***/
+/*** Toggle Groups ***/
+.toggle-group {
+    display: inline-block;
+    width: 152px;
+}
+a.toggle-btn {
+    display            : inline-block;
+
+    height             : 60px;
+    padding            : 0 12px;
+
+    background-color   : #f9f9f9;
+    font-style         : normal;
+    font-weight        : 100;
+    color              : #959595;
+    line-height        : 60px;
+    text-align         : center;
+    border             : 2px solid rgba(0, 0, 0, 0.2);
+    border-right-width : 0;
+}
+
+a.toggle-btn:first-child {
+    border-radius : 38px 0 0 38px;
+}
+
+a.toggle-btn.is-selected {
+    background-color : #37C2AC;
+    color            : #fff;
+    border-color     : transparent;
+}
+
+a.toggle-btn:last-child {
+    border-radius      : 0 38px 38px 0;
+    border-right-width : 2px;
+}
+
+@media only screen and (min-width: 800px) {
+    a.toggle-btn {
+        padding: 0 16px;
+    }
+    .toggle-group {
+        width: 176px;
+    }
+}
+
+/*** End Toggle Groups ***/
+/*** Player Stats ***/
+.side-panel-list {
+    padding : 0 25px;
+}
+
+.key {
+    width       : 100%;
+
+    font-size   : 0.9em;
+    font-weight : 100;
+    color       : #999;
+    text-align  : center;
+}
+
+.key p span {
+    display      : inline-block;
+
+    margin-right : 1rem;
+
+    font-family  : 'Roboto Condensed', 'san-serif';
+    font-weight  : 600;
+}
+
+.tr-full-width {
+    width : 100%;
+}
+
+.chip {
+    display        : inline-block;
+
+    margin         : 5px 10px;
+    padding        : 2px 8px;
+
+    font-size      : 0.9em;
+    font-weight    : bolder;
+    letter-spacing : 1px;
+    border-radius  : 500px;
+}
+
+.stat-circle {
+    display       : inline-block;
+
+    height        : 50px;
+    width         : 50px;
+    padding       : 5px;
+
+    background    : #54b2fd;
+    color         : #fff;
+    line-height   : 40px;
+    text-align    : center;
+    border-radius : 50%;
+}
+
+.PlayerAvatar {
+    overflow         : hidden;
+    height           : 50px;
+    width            : 50px;
+
+    background-color : white;
+    background-size  : cover;
+    font-size        : 21px;
+    font-style       : normal;
+    font-weight      : 300;
+    color            : black;
+    line-height      : 50px;
+    text-align       : center;
+    text-transform   : uppercase;
+    border-radius    : 4px;
+    box-shadow       : 0 3px 6px rgba(0, 0, 0, 0.15);
+    white-space      : nowrap;
+}
+
+.PlayerAvatar--inline {
+    display      : inline-block;
+    margin-right : 10px;
+}
+
+.u-center-block {
+    margin-right : auto;
+    margin-left  : auto;
+}
+
+.StatsTable {
+    width : 100%;
+    color : #959595;
+}
+
+.StatsTable th.active, .StatsTable th a.active {
+    color : #000;
+}
+
+.StatsTable th, .StatsTable th a {
+    font-family : 'Roboto Condensed';
+    font-size   : 14px;
+    font-weight : 300;
+    color       : #959595;
+    line-height : 19px;
+    text-align  : center;
+}
+
+.StatsTable th.left-align {
+    text-align : left;
+}
+
+.StatsTable tr:not(:last-child) {
+    border-bottom : 1px solid #d0d0d0;
+}
+
+.StatsTable td:not(:first-child), .StatsTable th:not(:first-child) {
+    width : 16%;
+}
+
+.Stat, td.Stat {
+    font-size  : 18px;
+    color      : #999;
+    text-align : center;
+}
+
+.top-stat {
+    padding       : 0 12px;
+
+    background    : #20B4F8;
+    font-weight   : bold;
+    color         : #fff;
+    border-radius : 10px;
+}
+
+.top-stat-header {
+    margin : 0 10px 0 15px;
+}
+
+td .top-stat, .td .top-stat {
+    display       : inline-block;
+
+    height        : 50px;
+    width         : 50px;
+    padding       : 5px;
+
+    color         : #fff;
+    line-height   : 40px;
+    text-align    : center;
+    border-radius : 50%;
+}
+
+.TopStatCard .Stat span.above-avg-stat, .above-avg-stat {
+    margin      : 0 0 0 5px;
+
+    font-weight : bold;
+    color       : #37C2AC;
+}
+
+/* only mobile */
+@media only screen and (max-width: 799px) {
+    .hide-small {
+        display : none;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+@media only screen and (min-width: 800px) {
+    .hide-large {
+        display: none;
+    }
+}
+
+/* mobile landscape and larger */
+@media only screen and (min-width: 415px) {
+    .container {
+        width : 85%;
+    }
+}
+
+/* Desktop small and larger */
+@media only screen and (min-width: 800px) {
+    .player-th {
+        width : 130px;
+    }
+    .key {
+        margin-top : 5px;
+    }
+}
+/*** End Player Stats ***/

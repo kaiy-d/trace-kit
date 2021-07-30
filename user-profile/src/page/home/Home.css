@@ -1,0 +1,17 @@
+@media screen and (min-width: 376px) {
+}
+
+@media screen and (max-width: 375px) {
+    .home__video {
+        width: 100%;
+        height: 212px;
+        background-image: url('../../assets/img/default-game-item.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .home__user {
+        padding-top: 20px;
+        padding-bottom: 11px;
+    }
+}

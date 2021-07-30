@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="17px" viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>dl-next-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="5.3.DownloadModal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-222.000000, -575.000000)">
+        <g id="Group" transform="translate(0.000000, 227.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-7" transform="translate(108.000000, 336.000000)">
+                <g id="SendEmail">
+                    <g id="Group-9" transform="translate(23.000000, 10.000000)">
+                        <g id="dl-next-icon" transform="translate(91.000000, 2.000000)">
+                            <polygon id="Shape" points="0.151315789 7.23471429 19.6958684 7.23471429 19.6958684 9.76407143 0.151315789 9.76407143"></polygon>
+                            <polygon id="Shape" points="14.2745263 16.9751071 12.5083987 15.2034946 19.1923197 8.50003036 12.5083987 1.79656607 14.2745263 0.0249535714 22.7221842 8.50006071"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

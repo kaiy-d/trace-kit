@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3336"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="138.75"
+   height="138.75"
+   viewBox="0 0 138.75 138.75"
+   sodipodi:docname="scoreboard-logo.svg">
+  <metadata
+     id="metadata3342">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3340" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="705"
+     id="namedview3338"
+     showgrid="false"
+     inkscape:zoom="3.3873874"
+     inkscape:cx="69.375"
+     inkscape:cy="69.375"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3336" />
+  <path
+     style="fill:#fefefe"
+     d="M 0,69.375 0,0 l 69.375,0 69.375,0 0,69.375 0,69.375 -69.375,0 -69.375,0 0,-69.375 z m 127.5,0 0,-58.125 -57.5,0 -57.5,0 0,58.125 0,58.125 57.5,0 57.5,0 0,-58.125 z M 44.748283,97.909091 C 37.056766,92.979065 35.46874,82.259361 41.581637,76.53318 51.350428,67.382385 65,72.768383 65,85.773853 65,96.426546 53.33785,103.41474 44.748283,97.909091 Z m 36.204931,0.134174 C 79.071231,97.022111 76.680606,94.541316 75.640714,92.530386 69.501104,80.657691 80.855407,67.917879 93.039366,73.008661 98.54588,75.30943 101.25,79.464541 101.25,85.625 c 0,10.886529 -10.866552,17.53506 -20.296786,12.418265 z M 64.235146,67.524914 C 59.507944,65.614909 56.25,60.130577 56.25,54.082939 c 0,-4.630345 0.660657,-6.197062 3.882194,-9.206427 3.165592,-2.957106 4.987559,-3.626512 9.87051,-3.626512 5.290007,0 6.44071,0.515249 9.867806,4.418495 9.8061,11.168531 -1.829981,27.43442 -15.635364,21.856419 z"
+     id="path3346"
+     inkscape:connector-curvature="0" />
+</svg>

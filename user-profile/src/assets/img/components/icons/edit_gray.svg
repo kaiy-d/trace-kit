@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icn_edit_gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="menu/team" transform="translate(-24.000000, -141.000000)" fill="#C2C2C2" fill-rule="nonzero">
+            <g id="icn_edit_gray" transform="translate(24.000000, 141.000000)">
+                <path d="M20,5.43856593 L14.5614341,0 L0,14.5661847 L0,20.0047507 L5.43856593,20.0047507 L20,5.43856593 Z M14.5639678,2.84178688 L17.1607468,5.43856593 L16.0708166,6.52973127 L13.4740376,3.93295222 L14.5639678,2.84178688 Z M12.0525424,5.35321224 L14.6493214,7.94999129 L6.02527356,16.5740392 L3.42849451,13.976025 L12.0525424,5.35321224 Z M2.00804447,17.9944259 L2.00804447,15.3976468 L4.60482351,17.9944259 L2.00804447,17.9944259 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
